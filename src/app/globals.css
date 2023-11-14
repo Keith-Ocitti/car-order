@@ -1,0 +1,52 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.today{
+    color: #656575;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 4px 8px;
+    border: none;
+  
+}
+
+.greenDot {
+  color: green;
+}
+
+.redDot {
+  color: red;
+}
+
+.blueDot {
+  color: blue;
+}
+
+.detailsButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.page-content {
+	margin-left: 260px;
+}
+
+
+

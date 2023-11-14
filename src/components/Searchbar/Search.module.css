@@ -1,0 +1,33 @@
+.searchSection {
+    margin-right: 5px;
+    margin:15px 0px 15px 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  .searchSection .searchComponents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 12px;
+    box-shadow: 0px 2.7030925751px 27.0309257507px 0px rgba(69, 69, 80, 0.1019607843);
+    background-color: white;
+  }
+
+  
+  
+  .searchField {
+    border: none;
+    outline: none;
+    color: #a3a3a3;
+    /* Paragraph/Body */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+  }
