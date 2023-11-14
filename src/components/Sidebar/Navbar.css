@@ -16,11 +16,13 @@ body {
 .desktop-navbar {
   display: none;
 }
+.nav-bar {
+  transition: 850ms ease-in-out;
+}
 
 .menu-bars {
   padding-top: 20px;
   padding-left: 20px;
-  /* background-color: red; */
 }
 .menu-items {
   padding-top: 25px;
@@ -87,11 +89,11 @@ body {
   .car-report-title {
     color: var(--color3);
     font-size: 22px;
-    line-height: 70px;
+    line-height: 20px;
   }
   .car-reports {
     color: var(--color5);
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .car-report-title,
   .car-reports {
@@ -130,7 +132,7 @@ body {
     justify-content: start;
     align-items: center;
     display: flex;
-    padding: 8px 0px 8px 16px;
+    padding: 5px 0px 8px 16px;
     height: 60px;
     font-size: 2rem;
     margin: 0 auto;
@@ -173,6 +175,9 @@ body {
   .nav-text .a .icons {
     margin-left: 20px;
   }
+  .menu-items {
+    padding-top: 3px;
+  }
 
   .menu-bars {
     position: absolute;
@@ -194,23 +199,16 @@ body {
     transition: 350ms;
   }
 
-  /* ul .menu-items li  {
-	display: flex;
-	gap: 2;
-	background-color: red;
-} */
-  /* .menu-bars.closeMenu{
-	z-index: 1111;
-	left: 195px;
-	top:17px;
-	padding: 4px 9px;
-}  */
   .separator {
     height: 2px;
     width: 80%;
     margin: 0 auto;
     background-color: var(--color5);
     align-items: center;
+  }
+  .car-reports > h3 {
+    color: white;
+    margin-left: 0px;
   }
 
   button {
